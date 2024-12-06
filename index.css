@@ -1,5 +1,27 @@
 html, body {
     margin: 0;
     padding: 0;
+    width: 375px;
+    border: solid black 5px;
 }
 
+.nav-bar {
+    width: 375px;
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #C6C6C6 1px;
+}
+
+.nav-bar img {
+    height: 34px;
+    margin: 17px;
+}
+
+.logo {
+    
+}
+
+.profile {
+    border-radius: 50%;
+}
