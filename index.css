@@ -2,7 +2,8 @@ html, body {
     margin: 0;
     padding: 0;
     width: 375px;
-    border: solid black 5px;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
 }
 
 .nav-bar {
@@ -14,14 +15,79 @@ html, body {
 }
 
 .nav-bar img {
-    height: 34px;
-    margin: 17px;
+    /* height: 34px;
+    margin: 17px; */
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .logo {
-    
+    cursor: pointer;
 }
 
 .profile {
+    margin: auto;
+    height: 34px;
     border-radius: 50%;
+    cursor: pointer;
+}
+
+.post-header {
+    display: flex;
+    padding: 10px;
+}
+
+.avatar {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.post-top p {
+    margin: 0;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.location {
+    font-size: 12px;
+}
+
+.picture {
+    height: 375px;
+    width: 375px;
+}
+
+.post-details {
+    padding: 10px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 4px;
+}
+
+.icon {
+    width: 23px;
+}
+
+.caption {
+    display: flex;
+    gap: 10px;
+}
+
+.caption p{
+    margin: 0;
+}
+
+.likes {
+    font-weight: 700;
+}
+
+.username {
+    font-weight: 700;
 }
